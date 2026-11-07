@@ -2,7 +2,7 @@ manifest:
   remotes:
     - name: cormoran
       url-base: https://github.com/cormoran
-    - name: na-ka-no
+    - name: wa579
       url-base: https://github.com/wa579
 
   projects:
