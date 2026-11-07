@@ -3,7 +3,7 @@ manifest:
     - name: cormoran
       url-base: https://github.com/cormoran
     - name: na-ka-no
-      url-base: https://github.com/na-ka-no
+      url-base: https://github.com/wa579
 
   projects:
     - name: zmk
@@ -23,8 +23,8 @@ manifest:
       import: true
 
     - name: zmk-pmw3610-driver
-      remote: na-ka-no
-      revision: main
+      remote: wa579
+      revision: bobtail-cormoran-compat
 
   self:
     path: config
