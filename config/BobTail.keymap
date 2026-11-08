@@ -36,6 +36,16 @@
             bindings = <&kp LG(TAB)>;
             key-positions = <8 9>;
         };
+
+        screenshot {
+            bindings = <&kp LG(LS(S))>;
+            key-positions = <20 21>;
+        };
+
+        creativepaste {
+            bindings = <&kp LC(LA(V))>;
+            key-positions = <10 11 12>;
+        };
     };
 
     behaviors {
@@ -72,16 +82,16 @@
             >;
         };
 
-        NUM {
+        Num,Setting {
             bindings = <
-&kp LS(EXCL)  &kp AT        &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                              &trans  &kp N7        &kp N8        &kp N9        &trans
-&kp SQT       &kp LS(LBRC)  &kp LBKT       &kp LS(LPAR)  &kp LS(DQT)    &kp LS(LT)      &kp LS(GT)  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4   &trans          &trans      &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
-&bt BT_CLR    &trans        &trans         &trans        &trans         &trans          &trans      &trans                                            &trans
+&trans        &trans        &trans        &trans        &trans                                    &trans  &kp N7        &kp N8        &kp N9        &trans
+&trans        &trans        &trans        &trans        &trans        &trans      &trans          &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans      &trans          &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans
+&bt BT_CLR    &trans        &trans        &trans        &trans        &trans      &studio_unlock  &trans                                            &trans
             >;
         };
 
-        ARROW {
+        layer_3 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
@@ -94,10 +104,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB4  &mkp MB5  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
