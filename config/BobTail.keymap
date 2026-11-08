@@ -64,10 +64,10 @@
 
         default_layer {
             bindings = <
-&kp TAB           &kp W         &kp E         &kp R        &kp T                                                 &kp Y          &kp U  &lt 5 I    &kp O    &kp P
-&mt LCTRL A       &kp S         &kp D         &kp F        &kp G        &kp LG(L)             &kp RIGHT_BRACKET  &mt LCTRL H    &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B        &kp LEFT_BRACKET      &kp BACKSLASH      &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp Q             &kp LEFT_GUI  &kp LEFT_ALT  &lt 3 LANG5  &lt 1 SPACE  &lt 2 LANG4           &mt RSHFT ENTER    &kp BACKSPACE                             &kp SINGLE_QUOTE
+&kp TAB           &kp W         &kp E         &kp R             &kp T                                                 &kp Y          &kp U  &lt 5 I    &kp O    &kp P
+&mt LCTRL A       &kp S         &kp D         &kp F             &kp G        &kp LG(L)             &kp RIGHT_BRACKET  &mt LCTRL H    &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &kp SINGLE_QUOTE      &kp BACKSLASH      &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp Q             &kp LEFT_GUI  &kp LEFT_ALT  &lt 3 LANGUAGE_2  &lt 1 SPACE  &lt 2 LANGUAGE_1      &mt RSHFT ENTER    &kp BACKSPACE                             &kp LEFT_BRACKET
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
