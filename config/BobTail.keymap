@@ -67,7 +67,7 @@
 &kp TAB           &kp W         &kp E         &kp R             &kp T                                                 &kp Y          &kp U  &lt 5 I    &kp O    &kp P
 &mt LCTRL A       &kp S         &kp D         &kp F             &kp G        &kp LG(L)             &kp RIGHT_BRACKET  &mt LCTRL H    &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B        &kp SINGLE_QUOTE      &kp BACKSLASH      &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp Q             &kp LEFT_GUI  &kp LEFT_ALT  &lt 3 LANGUAGE_2  &lt 1 SPACE  &lt 2 LANGUAGE_1      &mt RSHFT ENTER    &kp BACKSPACE                             &kp LEFT_BRACKET
+&mt LCTRL Q       &kp LEFT_GUI  &kp LEFT_ALT  &lt 3 LANGUAGE_2  &lt 1 SPACE  &lt 2 LANGUAGE_1      &mt RSHFT ENTER    &kp BACKSPACE                             &kp LEFT_BRACKET
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -75,10 +75,10 @@
 
         Arrow,Function {
             bindings = <
-&kp LS(N1)        &kp F7  &kp F8  &kp F9  &trans                          &kp LS(NUMBER_2)  &kp LC(LS(TAB))     &kp UP_ARROW  &kp LC(TAB)          &kp LS(N5)
-&kp LS(NUMBER_6)  &kp F4  &kp F5  &kp F6  &trans  &trans      &kp LS(N8)  &kp HOME          &kp LEFT            &kp DOWN      &kp RIGHT_ARROW      &kp END
-&trans            &kp F1  &kp F2  &kp F3  &trans  &trans      &kp LS(N9)  &kp PAGE_UP       &kp LG(LEFT_ARROW)  &trans        &kp LG(RIGHT_ARROW)  &kp PAGE_DOWN
-&trans            &trans  &trans  &trans  &trans  &trans      &trans      &kp DEL                                                                  &kp LS(INTERNATIONAL_1)
+&kp LS(N1)  &kp F7  &kp F8  &kp F9  &kp LS(NUMBER_6)                          &kp LS(NUMBER_2)  &kp LC(LS(TAB))     &kp UP_ARROW  &kp LC(TAB)          &kp LS(N5)
+&kp LCTRL   &kp F4  &kp F5  &kp F6  &trans            &trans      &kp LS(N8)  &kp HOME          &kp LEFT            &kp DOWN      &kp RIGHT_ARROW      &kp END
+&trans      &kp F1  &kp F2  &kp F3  &trans            &trans      &kp LS(N9)  &kp PAGE_UP       &kp LG(LEFT_ARROW)  &trans        &kp LG(RIGHT_ARROW)  &kp PAGE_DOWN
+&trans      &trans  &trans  &trans  &trans            &trans      &trans      &kp DEL                                                                  &kp LS(INTERNATIONAL_1)
             >;
         };
 
